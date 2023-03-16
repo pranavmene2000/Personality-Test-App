@@ -1,0 +1,106 @@
+{
+	"questions": [
+		{
+			"questionText": "To do anything, I first need other people's approval."
+		},
+		{
+			"questionText": "I get bored easily when disscussing abstract concepts."
+		},
+		{
+			"questionText": "I have trouble taking critisim from other people."
+		},
+		{
+			"questionText": "I learn and grow from my rather deny them or use them to confirm my unworthiness."
+		},
+		{
+			"questionText": "I feel of equal value to other people, regardless of my Performance , Looks, IQ, Achievements, Possession (lack of them)"
+		},
+		{
+			"questionText": "I see myself as serious and thougtful."
+		},
+		{
+			"questionText": "I tend to avoid challenging tasks"
+		},
+		{
+			"questionText": "I give up on works before completing them."
+		},
+		{
+			"questionText": "To do anything, I first need other people's approval."
+		},
+		{
+			"questionText": "I get bored easily when disscussing abstract concepts."
+		},
+		{
+			"questionText": "I have trouble taking critisim from other people."
+		},
+		{
+			"questionText": "I learn and grow from my rather deny them or use them to confirm my unworthiness."
+		},
+		{
+			"questionText": "I feel of equal value to other people, regardless of my Performance , Looks, IQ, Achievements, Possession (lack of them)"
+		},
+		{
+			"questionText": "I see myself as serious and thougtful."
+		},
+		{
+			"questionText": "I tend to avoid challenging tasks"
+		},
+		{
+			"questionText": "I give up on works before completing them."
+		},
+		{
+			"questionText": "I learn and grow from my rather deny them or use them to confirm my unworthiness."
+		},
+		{
+			"questionText": "I feel of equal value to other people, regardless of my Performance , Looks, IQ, Achievements, Possession (lack of them)"
+		},
+		{
+			"questionText": "I see myself as serious and thougtful."
+		},
+		{
+			"questionText": "I tend to avoid challenging tasks"
+		},
+		{
+			"questionText": "I give up on works before completing them."
+		},
+		{
+			"questionText": "I learn and grow from my rather deny them or use them to confirm my unworthiness."
+		},
+		{
+			"questionText": "I feel of equal value to other people, regardless of my Performance , Looks, IQ, Achievements, Possession (lack of them)"
+		},
+		{
+			"questionText": "I see myself as serious and thougtful."
+		},
+		{
+			"questionText": "I tend to avoid challenging tasks"
+		},
+		{
+			"questionText": "I give up on works before completing them."
+		},
+		{
+			"questionText": "I learn and grow from my rather deny them or use them to confirm my unworthiness."
+		},
+		{
+			"questionText": "I feel of equal value to other people, regardless of my Performance , Looks, IQ, Achievements, Possession (lack of them)"
+		},
+		{
+			"questionText": "I see myself as serious and thougtful."
+		},
+		{
+			"questionText": "I tend to avoid challenging tasks"
+		}
+	],
+	"optionList": [
+		"Strongly Agree",
+		"Agree",
+		"Neutral",
+		"Disagree",
+		"Strongly Disagree"
+	],
+	"paraList": {
+		"0_10": "You are a Builder. You enjoy leading, creating and working hard. You are a traditional person with respect for authority. Your strengths are your diligence, directness and practicality. Your weaknesses are your lack of tact, patience, and difficulty with abstractions.",
+		"11_20": "You are a Planner. You enjoy dreaming, plotting and innovating. You tend to spend a lot of time thinking. Your strengths are your vision, objectiveness and attention to detail. Your weaknesses are your difficulty in putting yourself in the current moment and lack of practicality and speed.",
+		"21_30": "You are an Adventurer. You enjoy action, excitement and drama. You easily accept change and are spontaneous. Your strengths are your tenacity, fearlessness and adaptability. Your weaknesses are your carelessness and lack of focus and diligence."
+	}
+}
