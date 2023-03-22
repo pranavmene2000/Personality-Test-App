@@ -2,8 +2,21 @@ import React from "react";
 import { useGlobalContext } from "../context/context";
 import { Zoom, Fade } from "react-reveal";
 
+const _decidedPara = (score) => {
+	if (score <= 50 && score >= 0) {
+		return "para_A";
+	}
+	if (score <= 100 && score > 50) {
+		return "para_B";
+	}
+	if (score <= 150 && score > 100) {
+		return "para_C";
+	}
+};
+
 function Result() {
-	const { paras, marking, scoreWiseParas } = useGlobalContext();
+	const { paras, marking, scoreWiseParas, totalScoreParas } =
+		useGlobalContext();
 
 	const total_score = [...scoreWiseParas].reduce((acc, curr) => {
 		return curr["score"] + acc;
@@ -30,13 +43,18 @@ function Result() {
 										key={id}
 										className='bg-gray-100 border-slate-100 border-b rounded-md p-4'
 									>
-										<p className='text-xs'>{paragraph}</p>
+										<p className='text-sm'>{paragraph}</p>
 									</div>
 								);
 							})}
 						<div className='bg-gray-300 border-slate-100 border-b rounded-md p-4'>
-							<p>Final Score is here...</p>
-							<p className='pt-2 text-sm'>{total_score / 5}</p>
+							<p>Well done!!! Your final score is here...</p>
+							<p className='font-bold text-violet-600 pt-2 text-md'>
+								{Number(total_score / 3).toFixed(2)}
+							</p>
+							<p className='pt-2 text-sm'>
+								"{totalScoreParas[_decidedPara(total_score / 3)]}"
+							</p>
 						</div>
 					</div>
 				</Zoom>

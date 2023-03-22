@@ -7,10 +7,10 @@ const _decidedPara = (score) => {
 	if (score <= 10 && score >= 0) {
 		return "para_A";
 	}
-	if (score <= 20 && score >= 11) {
+	if (score <= 20 && score > 10) {
 		return "para_B";
 	}
-	if (score <= 30 && score >= 21) {
+	if (score <= 30 && score > 20) {
 		return "para_C";
 	}
 };
@@ -32,6 +32,7 @@ const AppProvider = ({ children }) => {
 	const [questions, setQuestions] = useState([]);
 	const [options, setOptions] = useState([]);
 	const [paras, setParas] = useState([]);
+	const [totalScoreParas, setTotalScoreParas] = useState([]);
 	const [isAnsWait, setIsAnsWait] = useState({
 		state: false,
 		index: -99999,
@@ -94,6 +95,8 @@ const AppProvider = ({ children }) => {
 				setOptions(data["optionList"]);
 			} else if (type === "paras") {
 				setParas(data["paraList"]);
+			} else if (type === "scoreParas") {
+				setTotalScoreParas(data["totalScoreParas"]);
 			}
 			setLoading(false);
 			setError(false);
@@ -148,6 +151,7 @@ const AppProvider = ({ children }) => {
 				paras,
 				setParas,
 				scoreWiseParas,
+				totalScoreParas,
 			}}
 		>
 			{children}

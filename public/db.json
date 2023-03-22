@@ -43,13 +43,13 @@
 			"questionText": "I have as many close friends as I would like to have."
 		},
 		{
-			"questionText": "I feel good about how well I get along with others." 
+			"questionText": "I feel good about how well I get along with others."
 		},
 		{
-			"questionText": "I wish my friends liked me more than they do." 
+			"questionText": "I wish my friends liked me more than they do."
 		},
 		{
-			"questionText": "I feel good about how much my friends like my ideas." 
+			"questionText": "I feel good about how much my friends like my ideas."
 		},
 		{
 			"questionText": "I feel ok about how much other people like doing things with me."
@@ -124,5 +124,10 @@
 			"para_B": "For 24_29 ... ...Para B",
 			"para_C": "For 24_29 ... ... ...Para C"
 		}
+	},
+	"totalScoreParas": {
+		"para_A": "total score para A",
+		"para_B": "total score para B",
+		"para_C": "total score para C"
 	}
 }

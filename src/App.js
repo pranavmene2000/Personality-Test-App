@@ -35,6 +35,7 @@ function App() {
 		fetchApi("questions");
 		fetchApi("options");
 		fetchApi("paras");
+		fetchApi("scoreParas");
 	}, []);
 
 	if (index === 29) {
@@ -104,7 +105,7 @@ function App() {
 												if (index !== questions.length - 1) {
 													setTimeout(() => {
 														nextQuestion();
-													}, 1000);
+													}, 100);
 												} else {
 													setIsResultReady(true);
 													displayNormalButtonView();
