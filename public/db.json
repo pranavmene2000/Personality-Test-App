@@ -100,29 +100,29 @@
 	],
 	"paraList": {
 		"0_5": {
-			"para_A": "For 0_5 ...Para A",
-			"para_B": "For 0_5 ... ...Para B",
-			"para_C": "For 0_5 ... ... ...Para C"
+			"para_A": "You are a person who lacks a bit Self-Respect about yourself. Other people's opinions and views have a significant impact on your decisions. You are not confident about yourself and doubt your achievements. You give in to self-pity and can't handle others criticism.",
+			"para_B": "You are a calm person with no distinguishable opinions about things. You do not lack confidence but are also not very confident about putting yourself up for challenges. Although you think you are worth it, you still lack the competitiveness to accept challenging tasks that forces you to get outside your comfort zone.",
+			"para_C": "You are person with High Self-Respect. You do not let others criticism affect you but rather learn and grow from it. Others opinions does not affect you views and decisions that you believe in. You believe in yourself have the confidence to think of yourself as equals within people."
 		},
 		"6_11": {
-			"para_A": "For 6_11 ...Para A",
-			"para_B": "For 6_11 ... ...Para B",
-			"para_C": "For 6_11 ... ... ...Para C"
+			"para_A": "You are a person with a low Self-Regard. You don't think yourself as a capable person. Although you try to give your best, you do not expect to succeed or achieve anything. You have a negative view about yourself and tend to rather give up or avoid challenging tasks.",
+			"para_B": "Although you do not lack confidence in your abilities, you still do not expect to achieve great through your works. You tend to give up on challenges when it gets too difficult for you rather than facing it. You have a good idea about your capabilities and prefer to stay within your limits, not daring to test them.",
+			"para_C": "You have a High Self-Regard. It helps you in being confident about your ability in achieving your goals and you don't shy away from accepting challenges. You usually tend to handle the given tasks and even if it gets difficult, you do not give up. Failure does not get you down but rather motivates you to do better and work harder."
 		},
 		"12_17": {
-			"para_A": "For 12_17 ...Para A",
-			"para_B": "For 12_17 ... ...Para B",
-			"para_C": "For 12_17 ... ... ...Para C"
+			"para_A": "You tend to show traits of Introversion. You are an Introvert but also lack the Self-Esteem to put yourself out in the social situations. Although you might have a fun personality, you lack the confidence to show yourself to others. You are afraid of not being accepted which in turn makes you not show your true self to others.",
+			"para_B": "You are the type of person who although does not shy away from social gatherings, does not have enough confidence to get along with people. You like to make friends but keep doubting whether they like you or not. Although you like share ideas and give suggestions in a groups, you tend to think and brood over whether your ideas are accepted or not.",
+			"para_C": "You are what can be called as a Social Butterfly. You like to make friends and do not shy away from introducing yourself to someone new. You have good bond with your friends and feel good about how liked you are. You like to give out ideas and suggestions to others, without worrying about being judged."
 		},
 		"18_23": {
-			"para_A": "For 18_23 ...Para A",
-			"para_B": "For 18_23 ... ...Para B",
-			"para_C": "For 18_23 ... ... ...Para C"
+			"para_A": "You have no confidence on your looks. Other people's opinion affects you and is important to you. You tend to downplay your best physical features and focus on your negative traits more. You end up comparing yourself with others which in turn makes you hate your appearance more.",
+			"para_B": "Although you do not hate your appearance you tend to not be able to find anything beautiful about yourself. You like yourself and how you look but other people's opinion affects your confidence. You tend to compare yourself with others but still do not forget about your strong features either. You tend to focus on your negative features and try to change it to your satisfaction.",
+			"para_C": "You do not hesitate to call yourself as Beautiful/Handsome. You love how you look and do not let others opinions get you down or hate your looks. You do not compare yourself with others as you are satisfied with your looks. This does not mean that you have to love everything about yourself, but having confidence means that you do not let it get you down."
 		},
 		"24_29": {
-			"para_A": "For 24_29 ...Para A",
-			"para_B": "For 24_29 ... ...Para B",
-			"para_C": "For 24_29 ... ... ...Para C"
+			"para_A": "You lack pride in yourself. You do not think of yourself as worth it of attention and love. You try to be satisfied with what you have and tend to not ask for more. You think you do have enough good qualities in yourself, which in turn makes you not to believe in yourself. It makes you hesitant in accepting what u actually deserve.",
+			"para_B": "Self-worth is about knowing that you are valued, loved and appreciated by yourself. Although you know that you have good qualities, you tend to down play them as nothing special. There are times when you think you deserve all the praise you get while there are also days where you doubt yourself. Being in the presence of someone better does not bother you, but you still lack the confidence and competitiveness to think you can surpass them.",
+			"para_C": "You take pride in yourself and in everything that you do. This makes you have high standards for yourself. You know and have pride in all the good qualities that you have. You do not get intimidated in the presence of someone superior than you. You believe in yourself to handle everything on you own."
 		}
 	},
 	"totalScoreParas": {
