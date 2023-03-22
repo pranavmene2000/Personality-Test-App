@@ -2,24 +2,8 @@ import React from "react";
 import { useGlobalContext } from "../context/context";
 import { Zoom, Fade } from "react-reveal";
 
-const _between = (x, min, max) => {
-	return x >= min && x <= max;
-};
-
-const getPara = (value) => {
-	if (_between(value, 0, 10)) {
-		return 0 + "_" + 10;
-	}
-	if (_between(value, 11, 20)) {
-		return 11 + "_" + 20;
-	}
-	if (_between(value, 21, 30)) {
-		return 21 + "_" + 30;
-	}
-};
-
 function Result() {
-	const { paras, marking } = useGlobalContext();
+	const { paras, marking, scoreWiseParas } = useGlobalContext();
 
 	return (
 		<div className='min-h-screen flex items-center justify-center '>
@@ -32,24 +16,17 @@ function Result() {
 				<Zoom left cascade>
 					<div className='flex flex-col space-y-4 pt-6'>
 						{marking &&
-							Object.entries(marking).map(([marksRange, marksValue], index) => {
-								const paragraph = getPara(marksValue);
+							[...scoreWiseParas].map(({ id, paraName, paraFor }) => {
+								const paragraph = paras[paraFor][paraName];
+								console.log("====================================");
+								console.log(paragraph);
+								console.log("====================================");
 								return (
 									<div
-										key={index}
-										className='bg-gray-100 border-slate-100 border-b rounded-md p-4 '
+										key={id}
+										className='bg-gray-100 border-slate-100 border-b rounded-md p-4'
 									>
-										<p className='text-violet-600 font-bold'>
-											For question number ranged from{" "}
-											<span className='text-bold text-black'>
-												{parseInt(marksRange.split("_")[0]) + 1}
-											</span>{" "}
-											to{" "}
-											<span className='text-bold text-black'>
-												{parseInt(marksRange.split("_")[1]) + 1}
-											</span>
-										</p>
-										<p className='pt-2 text-sm'>{paras[paragraph]}</p>
+										<p className='pt-2 text-sm'>{paragraph}</p>
 									</div>
 								);
 							})}

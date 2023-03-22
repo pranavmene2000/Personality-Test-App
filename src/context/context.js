@@ -3,6 +3,25 @@ import axios from "axios";
 
 // export const API_ENDPOINT = "http://localhost:3000";
 
+const _decidedPara = (score) => {
+	if (score <= 10 && score >= 0) {
+		return "para_A";
+	}
+	if (score <= 20 && score >= 11) {
+		return "para_B";
+	}
+	if (score <= 30 && score >= 21) {
+		return "para_C";
+	}
+};
+
+function revisedRandId() {
+	return Math.random()
+		.toString(36)
+		.replace(/[^a-z]+/g, "")
+		.substr(2, 10);
+}
+
 const AppContext = createContext();
 
 const AppProvider = ({ children }) => {
@@ -18,6 +37,7 @@ const AppProvider = ({ children }) => {
 		index: -99999,
 	});
 	const [marking, setMarking] = useState({});
+	const [scoreWiseParas, setScoreWiseParas] = useState([]);
 	const [isResultReady, setIsResultReady] = useState(false);
 
 	console.log(index);
@@ -30,10 +50,26 @@ const AppProvider = ({ children }) => {
 
 		console.log(args, from_to_string);
 
+		const para = _decidedPara(parseInt(args[2]));
+
 		if ((to + 1) % 6 === 0) {
 			// question | value of selected option
 			// question | to
 			// question | from
+
+			console.log(_decidedPara(args[2]));
+
+			setScoreWiseParas((prevState) => {
+				return [
+					...prevState,
+					{
+						id: revisedRandId(),
+						paraName: para,
+						paraFor: from_to_string,
+					},
+				];
+			});
+
 			setMarking((prevState) => {
 				return {
 					...prevState,
@@ -110,6 +146,7 @@ const AppProvider = ({ children }) => {
 				setIsResultReady,
 				paras,
 				setParas,
+				scoreWiseParas,
 			}}
 		>
 			{children}

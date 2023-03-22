@@ -25,6 +25,7 @@ function App() {
 		displayNormalButtonView,
 		isResultReady,
 		setIsResultReady,
+		scoreWiseParas,
 	} = useGlobalContext();
 
 	useEffect(() => {
@@ -39,6 +40,7 @@ function App() {
 
 	if (index === 29) {
 		console.log(marking);
+		console.log(scoreWiseParas);
 	}
 
 	if (loading && questions.length === 0) {
@@ -103,7 +105,7 @@ function App() {
 												if (index !== questions.length - 1) {
 													setTimeout(() => {
 														nextQuestion();
-													}, 100);
+													}, 1000);
 												} else {
 													setIsResultReady(true);
 													displayNormalButtonView();
@@ -118,7 +120,7 @@ function App() {
 											} ${
 												isAnsWait.state === true &&
 												isAnsWait.index !== optionIndex
-													? "bg-violet-400"
+													? "bg-violet-500"
 													: "hover:scale-y-110 transition-all duration-150"
 											}  w-4/5 rounded-lg mx-auto text-white p-2 text-sm`}
 											dangerouslySetInnerHTML={{

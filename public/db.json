@@ -99,8 +99,30 @@
 		"Strongly Disagree"
 	],
 	"paraList": {
-		"0_10": "You are a Builder. You enjoy leading, creating and working hard. You are a traditional person with respect for authority. Your strengths are your diligence, directness and practicality. Your weaknesses are your lack of tact, patience, and difficulty with abstractions.",
-		"11_20": "You are a Planner. You enjoy dreaming, plotting and innovating. You tend to spend a lot of time thinking. Your strengths are your vision, objectiveness and attention to detail. Your weaknesses are your difficulty in putting yourself in the current moment and lack of practicality and speed.",
-		"21_30": "You are an Adventurer. You enjoy action, excitement and drama. You easily accept change and are spontaneous. Your strengths are your tenacity, fearlessness and adaptability. Your weaknesses are your carelessness and lack of focus and diligence."
+		"0_5": {
+			"para_A": "For 0_5 ...Para A",
+			"para_B": "For 0_5 ... ...Para B",
+			"para_C": "For 0_5 ... ... ...Para C"
+		},
+		"6_11": {
+			"para_A": "For 6_11 ...Para A",
+			"para_B": "For 6_11 ... ...Para B",
+			"para_C": "For 6_11 ... ... ...Para C"
+		},
+		"12_17": {
+			"para_A": "For 12_17 ...Para A",
+			"para_B": "For 12_17 ... ...Para B",
+			"para_C": "For 12_17 ... ... ...Para C"
+		},
+		"18_23": {
+			"para_A": "For 18_23 ...Para A",
+			"para_B": "For 18_23 ... ...Para B",
+			"para_C": "For 18_23 ... ... ...Para C"
+		},
+		"24_29": {
+			"para_A": "For 24_29 ...Para A",
+			"para_B": "For 24_29 ... ...Para B",
+			"para_C": "For 24_29 ... ... ...Para C"
+		}
 	}
 }
