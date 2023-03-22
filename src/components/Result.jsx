@@ -5,6 +5,10 @@ import { Zoom, Fade } from "react-reveal";
 function Result() {
 	const { paras, marking, scoreWiseParas } = useGlobalContext();
 
+	const total_score = [...scoreWiseParas].reduce((acc, curr) => {
+		return curr["score"] + acc;
+	}, 0);
+
 	return (
 		<div className='min-h-screen flex items-center justify-center '>
 			<div className='relative p-3 xl:my-0 my-5 md:p-8 bg-white shadow rounded-lg max-w-[1200px] w-11/12 min-h-[300px]'>
@@ -26,10 +30,14 @@ function Result() {
 										key={id}
 										className='bg-gray-100 border-slate-100 border-b rounded-md p-4'
 									>
-										<p className='pt-2 text-sm'>{paragraph}</p>
+										<p className='text-xs'>{paragraph}</p>
 									</div>
 								);
 							})}
+						<div className='bg-gray-300 border-slate-100 border-b rounded-md p-4'>
+							<p>Final Score is here...</p>
+							<p className='pt-2 text-sm'>{total_score / 5}</p>
+						</div>
 					</div>
 				</Zoom>
 			</div>

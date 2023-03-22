@@ -66,6 +66,7 @@ const AppProvider = ({ children }) => {
 						id: revisedRandId(),
 						paraName: para,
 						paraFor: from_to_string,
+						score: parseInt(args[2]),
 					},
 				];
 			});
