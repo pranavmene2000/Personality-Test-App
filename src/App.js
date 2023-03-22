@@ -105,7 +105,7 @@ function App() {
 												if (index !== questions.length - 1) {
 													setTimeout(() => {
 														nextQuestion();
-													}, 100);
+													}, 1200);
 												} else {
 													setIsResultReady(true);
 													displayNormalButtonView();

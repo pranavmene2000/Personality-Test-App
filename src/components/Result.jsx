@@ -48,10 +48,6 @@ function Result() {
 								);
 							})}
 						<div className='bg-gray-300 border-slate-100 border-b rounded-md p-4'>
-							<p>Well done!!! Your final score is here...</p>
-							<p className='font-bold text-violet-600 pt-2 text-md'>
-								{Number(total_score / 3).toFixed(2)}
-							</p>
 							<p className='pt-2 text-sm'>
 								"{totalScoreParas[_decidedPara(total_score / 3)]}"
 							</p>
