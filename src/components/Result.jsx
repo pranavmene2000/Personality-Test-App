@@ -3,7 +3,10 @@ import { useGlobalContext } from "../context/context";
 import { Zoom, Fade } from "react-reveal";
 
 const _decidedPara = (score) => {
-	if (score <= 50 && score >= 0) {
+	console.log("====================================");
+	console.log(score);
+	console.log("====================================");
+	if (score <= 50 && score > 0) {
 		return "para_A";
 	}
 	if (score <= 100 && score > 50) {
@@ -48,8 +51,9 @@ function Result() {
 								);
 							})}
 						<div className='bg-gray-300 border-slate-100 border-b rounded-md p-4'>
+							{/* "{(total_score / 3)}" */}
 							<p className='pt-2 text-sm'>
-								"{totalScoreParas[_decidedPara(total_score / 3)]}"
+								"{totalScoreParas[_decidedPara(total_score)]}"
 							</p>
 						</div>
 					</div>

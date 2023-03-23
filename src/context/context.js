@@ -4,7 +4,7 @@ import axios from "axios";
 // export const API_ENDPOINT = "http://localhost:3000";
 
 const _decidedPara = (score) => {
-	if (score <= 10 && score >= 0) {
+	if (score <= 10 && score > 0) {
 		return "para_A";
 	}
 	if (score <= 20 && score > 10) {
